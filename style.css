@@ -1,0 +1,331 @@
+```css id="h4q8x7"
+/* =========================
+   GENERAL
+========================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+  color: #1f2937;
+  background: #f8fafc;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+  text-align: center;
+  padding: 90px 20px;
+  background: #111827;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 52px;
+  letter-spacing: 1px;
+}
+
+header h2 {
+  margin: 15px 0;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+header p {
+  max-width: 750px;
+  margin: 12px auto;
+  font-size: 18px;
+  color: #d1d5db;
+}
+
+nav {
+  margin-top: 35px;
+}
+
+nav a {
+  color: #dbeafe;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: white;
+}
+
+header > a {
+  display: inline-block;
+  margin: 25px 7px 0;
+  padding: 12px 22px;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header > a:hover {
+  background: #1d4ed8;
+}
+
+
+/* =========================
+   SECTIONS
+========================= */
+
+section {
+  max-width: 1050px;
+  margin: auto;
+  padding: 70px 25px;
+}
+
+hr {
+  display: none;
+}
+
+section h2 {
+  margin-bottom: 30px;
+  font-size: 34px;
+  color: #111827;
+}
+
+section h3 {
+  color: #2563eb;
+}
+
+
+/* =========================
+   ABOUT
+========================= */
+
+#about {
+  text-align: center;
+}
+
+#about p {
+  max-width: 850px;
+  margin: 15px auto;
+  font-size: 17px;
+}
+
+
+/* =========================
+   SKILLS
+========================= */
+
+#skills {
+  text-align: center;
+  background: white;
+  max-width: none;
+}
+
+#skills h2,
+#skills h3 {
+  text-align: center;
+}
+
+#skills p {
+  max-width: 900px;
+  margin: 10px auto 30px;
+}
+
+
+/* =========================
+   PROJECTS
+========================= */
+
+#projects {
+  max-width: 1100px;
+}
+
+#projects > h2 {
+  text-align: center;
+}
+
+article {
+  background: white;
+  margin: 30px 0;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+  border-left: 5px solid #2563eb;
+}
+
+article h3 {
+  margin-top: 0;
+  font-size: 23px;
+}
+
+article h4 {
+  color: #374151;
+  margin-bottom: 5px;
+}
+
+article ul {
+  padding-left: 25px;
+}
+
+article li {
+  margin-bottom: 8px;
+}
+
+
+/* =========================
+   ADDITIONAL PROJECTS
+========================= */
+
+#additional-projects {
+  background: #f1f5f9;
+  max-width: none;
+  padding-left: max(25px, calc((100% - 1050px) / 2));
+  padding-right: max(25px, calc((100% - 1050px) / 2));
+}
+
+
+/* =========================
+   RESEARCH
+========================= */
+
+#research {
+  background: white;
+  max-width: none;
+  padding-left: max(25px, calc((100% - 1050px) / 2));
+  padding-right: max(25px, calc((100% - 1050px) / 2));
+}
+
+
+/* =========================
+   EDUCATION
+========================= */
+
+#education {
+  text-align: center;
+}
+
+#education h3 {
+  color: #111827;
+  font-size: 23px;
+}
+
+
+/* =========================
+   CERTIFICATIONS
+========================= */
+
+#certifications {
+  background: #f1f5f9;
+  max-width: none;
+  padding-left: max(25px, calc((100% - 1050px) / 2));
+  padding-right: max(25px, calc((100% - 1050px) / 2));
+}
+
+#certifications ul {
+  max-width: 900px;
+  margin: auto;
+}
+
+#certifications li {
+  margin-bottom: 15px;
+}
+
+
+/* =========================
+   ACTIVITIES
+========================= */
+
+#activities {
+  max-width: 1100px;
+}
+
+
+/* =========================
+   CONTACT
+========================= */
+
+#contact {
+  text-align: center;
+  background: #111827;
+  color: white;
+  max-width: none;
+}
+
+#contact h2 {
+  color: white;
+}
+
+#contact a {
+  color: #93c5fd;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  color: white;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  background: #030712;
+  color: #9ca3af;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+  header {
+    padding: 65px 20px;
+  }
+
+  header h1 {
+    font-size: 38px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header p {
+    font-size: 16px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  section {
+    padding: 50px 20px;
+  }
+
+  section h2 {
+    font-size: 28px;
+  }
+
+  article {
+    padding: 22px;
+  }
+
+}
+```
