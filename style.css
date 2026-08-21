@@ -31,63 +31,52 @@ a {
    HEADER / HERO
 ======================================== */
 
+
 header {
-  min-height: 520px;
-  padding: 100px 20px 80px;
   text-align: center;
-  color: white;
+  padding: 90px 20px;
   background: #111827;
+  color: white;
 }
 
 header h1 {
   margin: 0;
-  font-size: 58px;
-  letter-spacing: -1px;
+  font-size: 52px;
+  letter-spacing: 1px;
 }
 
 header h2 {
-  max-width: 850px;
-  margin: 18px auto;
-  font-size: 26px;
-  font-weight: 500;
-  color: #dbeafe;
+  margin: 15px 0;
+  font-size: 25px;
+  font-weight: 400;
 }
 
 header p {
-  max-width: 800px;
+  max-width: 750px;
   margin: 12px auto;
-  font-size: 17px;
-  color: #cbd5e1;
+  font-size: 18px;
+  color: #d1d5db;
 }
 
-
-/* ---------- NAVIGATION ---------- */
-
 nav {
-  margin: 35px 0 0;
+  margin-top: 35px;
 }
 
 nav a {
-  display: inline-block;
-  margin: 5px 12px;
-  color: #cbd5e1;
+  color: #dbeafe;
   text-decoration: none;
-  font-size: 14px;
+  margin: 0 10px;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: #60a5fa;
+  color: white;
 }
-
-
-/* ---------- HERO BUTTONS ---------- */
 
 header > a {
   display: inline-block;
-  margin: 30px 6px 0;
-  padding: 13px 24px;
-  border: 1px solid #3b82f6;
+  margin: 25px 7px 0;
+  padding: 12px 22px;
   border-radius: 8px;
   background: #2563eb;
   color: white;
@@ -96,9 +85,7 @@ header > a {
 }
 
 header > a:hover {
-  transform: translateY(-3px);
   background: #1d4ed8;
-  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
 }
 
 
